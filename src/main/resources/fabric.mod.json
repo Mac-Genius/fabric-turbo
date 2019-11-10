@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "turbo",
+  "version": "${version}",
+
+  "name": "Fabric Turbo",
+  "description": "Improve performance without changing Vanilla behavior.",
+  "authors": [
+    "John Harrison"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Mac-Genius/fabric-turbo",
+    "sources": "https://github.com/Mac-Genius/fabric-turbo"
+  },
+
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.macgenius.turbo.TurboMod"
+    ]
+  },
+  "mixins": [
+    "turbo.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

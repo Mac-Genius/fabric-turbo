@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "io.macgenius.turbo.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ItemEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
